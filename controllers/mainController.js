@@ -69,6 +69,11 @@ module.exports = function() {
     italianoAction: function (req, res) {
       res.render('italiano', {config: config});
     },
+
+    campaignsAction: function (req, res) {
+      res.render('campaigns', {config: config});
+    },
+
     importerAction: function (req, res) {
       //res.render('importer', config);
     }
