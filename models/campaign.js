@@ -6,6 +6,7 @@ var campaignModel function() {
 	// Define Campaign model
 	var campaignSchema = new mongosse.Schema({
 		campaignTitle : String,
+		campaignText : String,
 		tw_targetMep : String,
 		// tw_mepimage : String,
 		// tw_targetName : String,
